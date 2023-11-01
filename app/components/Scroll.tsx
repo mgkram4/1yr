@@ -22,16 +22,18 @@ const HorizontalScrollCarousel = () => {
 
   return (
     <section ref={targetRef} className="relative h-[300vh] bg-pink-200">
-      <div className="font-serif first-letter:flex text-center items-center justify-center p-4 text-2xl text-pink-500">
-        Dear Isabella, There is nothing in the world that brings me more joy or
-        happiness than the time I spend with you. I want to express my heartfelt
-        gratitude for sharing your life with me; it's a privilege I will forever
-        cherish. Our journey together has been filled with growth, and I have
-        fallen deeply in love with you. Let's raise a toast to our love, and as
-        you scroll through our memories, see just how far we&apos;ve come. I
-        love you more than words can express, and I can't wait to celebrate
-        together. Yours, Mark
-      </div>
+      <section ref={targetRef} className="relative h-[300vh] bg-pink-200">
+        <div className="font-serif first-letter:flex text-center items-center justify-center p-4 text-2xl text-pink-500">
+          Dear Isabella, There is nothing in the world that brings me more joy
+          or happiness than the time I spend with you. I want to express my
+          heartfelt gratitude for sharing your life with me; it&apos;s a
+          privilege I will forever cherish. Our journey together has been filled
+          with growth, and I have fallen deeply in love with you. Let&apos;s
+          raise a toast to our love, and as you scroll through our memories, see
+          just how far we&apos;ve come. I love you more than words can express,
+          and I can&apos;t wait to celebrate together. Yours, Mark
+        </div>
+      </section>
 
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-2">
